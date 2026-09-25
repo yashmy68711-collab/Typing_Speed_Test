@@ -78,3 +78,13 @@ start_btn = tk.Button(
 start_btn.pack(pady=5)
 
 # Submit Button
+submit_btn = tk.Button(
+    window,
+    text="Submit",
+    command=check_result
+)
+
+submit_btn.pack(pady=10)
+
+# Run
+window.mainloop()
